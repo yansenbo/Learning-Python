@@ -1,0 +1,16 @@
+Learning-Python
+---
+### Content  
+- Python basic
+- Python for Scientific computing
+- Python for Web
+    + web crawler
+        * extracting links < a href="< url>">
+    + web pages rank
+
+
+Pythom basic
+---
+- Why do we need to invent new languages like Python to program computers, rather than using natural languages like English or Mandarin?
+    + Ambiguity
+    + Verbosity
