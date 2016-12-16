@@ -2,8 +2,11 @@ Learning-Python
 ---
 ### Content  
 - Python basic
-- Python for Scientific computing
+- Python for Scientific Computing
+    + numpy
+    + matplotlib
 - Python for Web
+    + regular expression
     + web crawler
         * extracting links < a href="< url>">
     + web pages rank
@@ -14,3 +17,34 @@ Pythom basic
 - Why do we need to invent new languages like Python to program computers, rather than using natural languages like English or Mandarin?
     + Ambiguity
     + Verbosity
+
+Python for Scientific Computing
+---
+
+
+Python for Web
+---
+#### Regular Expression  
+```
+import re
+re.findall(<Regular Expression>, <text>)  
+```  
+
+| Symbol        | Meaning       |
+| ------------- |:-------------:|
+| ^      | Matches the begining of the line |
+| $      | Matches the end of the line      |
+| . | Matches any character      |
+| \s | Matches whitespace |
+| \S | Matches any non­whitespace character |
+| * | Repeats a character 0 or more times |
+| *? | Repeats a character 0 or more times (non­greedy) |
+| + | Repeats a character 1 or more times |
+| +? | Repeats a character 1 or more times(non­greedy) |
+| [aeiou] | Matches a single character in the listed set |
+| [^XYZ] | Matches a single character not in the listed set |
+| [a-z0-9] | The set of characters can include a range |
+| ( | Indicates where string extraction is to start |
+| ) | Indicates where string extraction is to end |  
+
+
