@@ -11,6 +11,8 @@ Learning-Python
         * extracting links < a href="< url>">
     + web pages rank
 
+Python Challenge:
+2. string.maketrans()
 
 Pythom basic
 ---
